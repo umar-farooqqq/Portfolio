@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div id="about" className="w-full px-[12%] py-10 scroll-mt-20 text-black">
+    <div id="about" className="w-full px-[12%] py-10 scroll-mt-20 text-black bg-white pt-24">
       <h1 className="text-center mb-2 text-lg font-mono">Introduction</h1>
       <p className="text-center text-5xl font-mono">About me</p>
 
@@ -16,8 +16,8 @@ export default function About() {
           />
         </div>
         <div className="flex-1">
-          <p className="mb-10 max-w-2xl">
-            I am an experienced Front End developer with focused in building web applications using React and Next.js, and I have a strong foundation in JavaScript 
+          <p className="mb-10 max-w-2xl text-justify">
+            I am an experienced Front End developer with focused in building web applications using React and Next.js, and I have a strong foundation in HTML, CSS and JavaScript. 
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">

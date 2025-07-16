@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './user-image.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -15,7 +15,7 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import profile_pic from './profile_pic.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -35,6 +35,9 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import react from './react.png';
+import next from './next.png';
+import js from './js.png';
 
 export const assets = {
     user_image,
@@ -47,6 +50,9 @@ export const assets = {
     vscode,
     firebase,
     figma,
+    js,
+    react,
+    next,
     git,
     mongodb,
     right_arrow_white,
@@ -54,7 +60,7 @@ export const assets = {
     logo_dark,
     mail_icon,
     mail_icon_dark,
-    profile_img,
+    profile_pic,
     download_icon,
     hand_icon,
     header_bg_color,
@@ -78,19 +84,25 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Video Streaming App',
+        description: 'Built a responsive video streaming app using ReactJS with real-time data from the YouTube Data API.Integrated Google API to dynamically fetch and display video thumbnails, titles, and channel info.',
+        bgImage: '/yt.jpg',
+        tools: 'React.js, Tailwind CSS',
+        link: 'https://github.com/umar-farooqqq/VidTube'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Movie App',
+        description: 'Built a responsive movie web app using React.js and Tailwind CSS, integrated with the TMDB API to display real-time data for popular, top-rated, and now-playing movies and TV shows.',
+        bgImage: '/movie.jpg',
+        tools: 'React.js, Tailwind CSS',
+        link: 'https://github.com/umar-farooqqq/MovieApp'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'CryptoTracker',
+        description: 'Built a crypto tracking web app using ReactJS and integrated a third-party cryptocurrency API to display real-time prices, market stats, and coin details. Designed a responsive.',
+        bgImage: '/crypto.jpg',
+        tools: 'React.js, Tailwind CSS',
+        link: 'https://github.com/umar-farooqqq/CryptoTracker'
     },
 ]
 
@@ -108,5 +120,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.git, assets.react, assets.next, assets.js
 ];

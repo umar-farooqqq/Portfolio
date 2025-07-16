@@ -8,10 +8,10 @@ const Navbar = () => {
   const sidebarRef = useRef();
 
   const openMenu = () => {
-    sidebarRef.current.style.transform = "translateX(-16rem)"; // -64px in tailwind
+    sidebarRef.current.style.transform = "translateX(-16rem)"; 
   };
   const closeMenu = () => {
-    sidebarRef.current.style.transform = "translateX(0)"; // Reset to original position
+    sidebarRef.current.style.transform = "translateX(0)"; 
   };
 
   return (
@@ -27,26 +27,22 @@ const Navbar = () => {
           backgroundPosition: "center",
         }}
       >
-        <a href="#top">
-          <Image
-            src={assets.logo}
-            alt=""
-            className="w-28 cursor-pointer mr-14"
-          />
-        </a>
+         <a href="/">
+          <p className="w-28 cursor-pointer mr-14 rounded-md"><span className="text-3xl font-serif font-semibold">Umar.</span></p>
+        </a> 
 
         <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-md bg-opacity-50">
           <li>
-            <a href="#top">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <Link href="/projects">Projects</Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
 
@@ -75,7 +71,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* mobile menu*/}
+        {/* mobile menu */}
 
         <ul
           ref={sidebarRef}
@@ -90,24 +86,24 @@ const Navbar = () => {
           </div>
 
           <li>
-            <a onClick={closeMenu} href="#top">
+            <Link onClick={closeMenu} href="/">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a onClick={closeMenu} href="#about">
+            <Link onClick={closeMenu} href="/about">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a onClick={closeMenu} href="#projects">
+            <Link onClick={closeMenu} href="/projects">
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a onClick={closeMenu} href="#contact">
+            <Link onClick={closeMenu} href="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
