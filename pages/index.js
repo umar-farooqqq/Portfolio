@@ -15,17 +15,14 @@ export default function Home() {
             />
           </div>
           <h3 className="flex items-center gap-2 text-xl md:text-2xl mb-3">
-            Hi! I'm Umar Farooq{" "}
+            {"Hi! I'm Umar Farooq"}
             <Image src={assets.hand_icon} alt="" className="w-6" />
           </h3>
           <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-serif font-semibold">
             Front-End Web Developer
           </h1>
           <p className="max-w-2xl mx-auto text-justify">
-            I am a passionate Front End developer who loves turning ideas into
-            clean, responsive interfaces. I enjoy building modern websites with
-            React, Next.js, and Tailwind CSS. Always learning, always improving
-            my skills to create better user experiences.
+            {"I'm a passionate Front End developer who loves turning ideas into clean, responsive interfaces. I enjoy building modern websites with React, Next.js, and Tailwind CSS. Always learning, always improving my skills to create better user experiences."}
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
             <Button />

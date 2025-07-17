@@ -48,8 +48,7 @@ export default function Contact() {
 
       <p className="text-center text-5xl font-mono pt-4">Get in touch</p>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12">
-        I would love to hear from you! if you have any questions, comments, or
-        feedback, feel free to reach out.
+        {"I'd love to hear from you! if you have any questions, comments, or feedback, feel free to reach out."}
       </p>
 
       <form className="max-w-2xl mx-auto">
