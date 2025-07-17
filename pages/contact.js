@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className='w-full px-[12%] py-10 scroll-mt-20 bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center bg-[length:90%_auto] text-black bg-white pt-24'
+      className="w-full px-[12%] py-10 scroll-mt-20 bg-[url('/footer-bg-color.png')] bg-no-repeat bg-center bg-[length:90%_auto] text-black bg-white pt-24"
     >
       <h4 className="text-center text-5xl font-mono pt-4">Connect with me</h4>
 
@@ -48,7 +48,7 @@ export default function Contact() {
 
       <p className="text-center text-5xl font-mono pt-4">Get in touch</p>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12">
-        I'd love to hear from you! if you have any questions, comments, or
+        I would love to hear from you! if you have any questions, comments, or
         feedback, feel free to reach out.
       </p>
 
